@@ -1,0 +1,188 @@
+# Compile of bancoReg.sv was successful.
+# Compile of Controle.sv was successful.
+# Compile of Deslocamento.sv was successful.
+# Compile of Instr_Reg_RISC_V.vhd was successful.
+# Compile of LoadBlock.sv was successful.
+# Compile of Memoria32.sv was successful.
+# Compile of Memoria64.sv was successful.
+# Compile of mux_2in.sv was successful.
+# Compile of mux_2inAlu.sv was successful.
+# Compile of mux3_in.sv was successful.
+# Compile of mux8_in.sv was successful.
+# Compile of ramOnChip32.v was successful.
+# Compile of ramOnChip64.v was successful.
+# Compile of register.sv was successful.
+# Compile of SignExtend.sv was successful.
+# Compile of simulacao32.sv was successful.
+# Compile of StoreBlock.sv was successful.
+# Compile of ula64.vhd was successful.
+# Compile of UP.sv was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.simulacao32 -L altera_mf_ver
+# vsim -gui work.simulacao32 -L altera_mf_ver 
+# Start time: 13:42:43 on Sep 13,2019
+# Loading sv_std.std
+# Loading work.simulacao32
+# Loading work.UP
+# Loading work.LoadBlock
+# Loading work.StoreBlock
+# Loading work.Controle
+# Loading work.register
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.SignExtend
+# Loading work.Deslocamento
+# Loading work.bancoReg
+# Loading work.mux3_in
+# Loading work.mux8_in
+# Loading work.mux_2in
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.mux_2inAlu
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-3017) C:/Users/jgav/Desktop/Projeto/UP.sv(100): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/MemoryInstruction File: C:/Users/jgav/Desktop/Projeto/Memoria32.sv
+# ** Warning: (vsim-3722) C:/Users/jgav/Desktop/Projeto/UP.sv(100): [TFMPC] - Missing connection for port 'waddress'.
+# ** Warning: (vsim-3722) C:/Users/jgav/Desktop/Projeto/UP.sv(100): [TFMPC] - Missing connection for port 'Datain'.
+# ** Warning: (vsim-8822) C:/Users/jgav/Desktop/Projeto/UP.sv(183): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/Ula File: C:/Users/jgav/Desktop/Projeto/ula64.vhd
+# ** Warning: (vsim-8822) C:/Users/jgav/Desktop/Projeto/UP.sv(183): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/Ula File: C:/Users/jgav/Desktop/Projeto/ula64.vhd
+# ** Warning: (vsim-8822) C:/Users/jgav/Desktop/Projeto/UP.sv(183): [TFMPC] - Missing Verilog connection for formal VHDL port 'Maior'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/Ula File: C:/Users/jgav/Desktop/Projeto/ula64.vhd
+vsim -gui -L altera_mf_ver work.simulacao32
+# End time: 13:42:59 on Sep 13,2019, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 6
+# vsim -gui -L altera_mf_ver work.simulacao32 
+# Start time: 13:42:59 on Sep 13,2019
+# Loading sv_std.std
+# Loading work.simulacao32
+# Loading work.UP
+# Loading work.LoadBlock
+# Loading work.StoreBlock
+# Loading work.Controle
+# Loading work.register
+# Loading work.Memoria32
+# Loading work.ramOnChip32
+# Loading altera_mf_ver.altsyncram
+# Loading work.SignExtend
+# Loading work.Deslocamento
+# Loading work.bancoReg
+# Loading work.mux3_in
+# Loading work.mux8_in
+# Loading work.mux_2in
+# Loading work.Memoria64
+# Loading work.ramOnChip64
+# Loading work.mux_2inAlu
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.instr_reg_risc_v(behavioral_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading work.ula64(behavioral)
+# ** Warning: (vsim-3017) C:/Users/jgav/Desktop/Projeto/UP.sv(100): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/MemoryInstruction File: C:/Users/jgav/Desktop/Projeto/Memoria32.sv
+# ** Warning: (vsim-3722) C:/Users/jgav/Desktop/Projeto/UP.sv(100): [TFMPC] - Missing connection for port 'waddress'.
+# ** Warning: (vsim-3722) C:/Users/jgav/Desktop/Projeto/UP.sv(100): [TFMPC] - Missing connection for port 'Datain'.
+# ** Warning: (vsim-8822) C:/Users/jgav/Desktop/Projeto/UP.sv(183): [TFMPC] - Missing Verilog connection for formal VHDL port 'Overflow'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/Ula File: C:/Users/jgav/Desktop/Projeto/ula64.vhd
+# ** Warning: (vsim-8822) C:/Users/jgav/Desktop/Projeto/UP.sv(183): [TFMPC] - Missing Verilog connection for formal VHDL port 'Negativo'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/Ula File: C:/Users/jgav/Desktop/Projeto/ula64.vhd
+# ** Warning: (vsim-8822) C:/Users/jgav/Desktop/Projeto/UP.sv(183): [TFMPC] - Missing Verilog connection for formal VHDL port 'Maior'.
+#    Time: 0 ps  Iteration: 0  Instance: /simulacao32/up/Ula File: C:/Users/jgav/Desktop/Projeto/ula64.vhd
+add wave -position end  sim:/simulacao32/CLKPERIOD
+add wave -position end  sim:/simulacao32/CLKDELAY
+add wave -position end  sim:/simulacao32/clk
+add wave -position end  sim:/simulacao32/rst
+add wave -position end  sim:/simulacao32/MemRead
+add wave -position end  sim:/simulacao32/SelMuxA
+add wave -position end  sim:/simulacao32/SelMuxB
+add wave -position end  sim:/simulacao32/SelMuxMem
+add wave -position end  sim:/simulacao32/SelMuxAlu
+add wave -position end  sim:/simulacao32/SelMuxPC
+add wave -position end  sim:/simulacao32/PCwrite
+add wave -position end  sim:/simulacao32/IRWrite
+add wave -position end  sim:/simulacao32/RegWrite
+add wave -position end  sim:/simulacao32/loadRegA
+add wave -position end  sim:/simulacao32/loadRegB
+add wave -position end  sim:/simulacao32/loadRegMemData
+add wave -position end  sim:/simulacao32/loadRegAluOut
+add wave -position end  sim:/simulacao32/MemData_Write
+add wave -position end  sim:/simulacao32/PC
+add wave -position end  sim:/simulacao32/AluExit
+add wave -position end  sim:/simulacao32/RegA_Exit
+add wave -position end  sim:/simulacao32/RegB_Exit
+add wave -position end  sim:/simulacao32/AluOut
+add wave -position end  sim:/simulacao32/MemData
+add wave -position end  sim:/simulacao32/MemDataReg_Exit
+add wave -position end  sim:/simulacao32/i19_15
+add wave -position end  sim:/simulacao32/i24_20
+add wave -position end  sim:/simulacao32/WriteRegister
+add wave -position end  sim:/simulacao32/i6_0
+add wave -position end  sim:/simulacao32/i31_0
+add wave -position end  sim:/simulacao32/SignExit
+add wave -position end  sim:/simulacao32/ShiftExit
+add wave -position end  sim:/simulacao32/ShiftLeftExit
+add wave -position end  sim:/simulacao32/MemExit
+add wave -position end  sim:/simulacao32/MuxA_Exit
+add wave -position end  sim:/simulacao32/MuxB_Exit
+add wave -position end  sim:/simulacao32/WriteDataReg
+add wave -position end  sim:/simulacao32/MuxPC_Exit
+add wave -position end  sim:/simulacao32/MuxAlu_Exit
+add wave -position end  sim:/simulacao32/dataout1
+add wave -position end  sim:/simulacao32/dataout2
+add wave -position end  sim:/simulacao32/Num
+add wave -position end  sim:/simulacao32/Shift
+add wave -position end  sim:/simulacao32/AluOperation
+add wave -position end  sim:/simulacao32/AluZero
+add wave -position end  sim:/simulacao32/AluMenor
+add wave -position end  sim:/simulacao32/AluIgual
+add wave -position end  sim:/simulacao32/PCWriteCond
+add wave -position end  sim:/simulacao32/LoadTYPE
+add wave -position end  sim:/simulacao32/StoreTYPE
+add wave -position end  sim:/simulacao32/LoadResultExit
+add wave -position end  sim:/simulacao32/Store_Exit
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: jgav  Hostname: HWC25  ProcessID: 956
+#           Attempting to use alternate WLF file "./wlft9awn95".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9awn95
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryInstruction.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryInstruction.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryInstruction.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryInstruction.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock0.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock1.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock2.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock3.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock4.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock5.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock6.altsyncram_component.m_default.altsyncram_inst
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: simulacao32.up.MemoryData.memBlock7.altsyncram_component.m_default.altsyncram_inst
+# End time: 14:32:48 on Sep 13,2019, Elapsed time: 0:49:49
+# Errors: 0, Warnings: 8
