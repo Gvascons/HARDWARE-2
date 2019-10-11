@@ -1,0 +1,14 @@
+module ExcecaoExtend (
+	input logic [6:0] entrada,
+     	output logic [63:0] saida);
+ 
+	reg[6:0] aux;
+ 
+	assign aux[6:0] = entrada[6:0];
+ 
+	always_comb begin
+		saida [6:0] = entrada [6:0];
+            	saida [63:7] = 52'h0000000000000;
+        end
+endmodule
+
